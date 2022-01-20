@@ -20,7 +20,6 @@ const BackgroundContainer = styled.div`
     background-size: cover;
     height: 45em;
     width: 80em;
-    filter: brightness(70%);
     text-align: center;
 
     @media screen and (max-width: 480px) {
@@ -30,12 +29,11 @@ const BackgroundContainer = styled.div`
 
 const SloganText = styled.h1`
   font-family: Unisect-Black;
-  font-size: 90px;
+  font-size: 120px;
   font-weight: 800;
-  color: #0286c3;
+  color: #49fb35;
   text-align: center;
-  filter: brightness(150%);
-  margin-block-start: 3em;
+  margin-block-start: 2em;
   margin-block-end: 0.2em;
 
   @media screen and (max-width: 480px) {
@@ -86,7 +84,7 @@ export function TopSection(props) {
       <OurNavbar />
       <ColoredLine /> 
       <BackgroundContainer>
-          <SloganText>THEY WIN. <span style={styles.green}>YOU WIN.</span></SloganText>
+          <SloganText>THEY WIN. YOU WIN.</SloganText>
       </BackgroundContainer>
     </TopContainer>
   </Element>

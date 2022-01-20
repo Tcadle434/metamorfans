@@ -75,19 +75,19 @@ export function AboutSection(props) {
      <CenterContainer>
       <ContentContainer>
       <AboutComponent
-      title="Unique NFTs"
+      title="UNIQUE NFTS"
       description="3,141 Unique Metamorfan Nfts Built On Solana"
       imageUrl={ BiathalonImg }
 
       />
       <AboutComponent
-      title="Wide Range"
+      title="WIDE RANGE"
       description="Representing More Than 80 Nations And 15 Different Sports"
       imageUrl={ SnowmanImg }
 
       />
       <AboutComponent
-      title="Meta meets IRL"
+      title="META MEETS IRL"
       description="Win Medals Based On The Performance Of Competitors In Real World Games"
       imageUrl={ AlienImg }
 
