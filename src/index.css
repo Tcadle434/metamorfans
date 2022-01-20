@@ -1,3 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:'SanFranciscoText-Regular';
+  src: local('SanFranciscoText-Regular'), url(./fonts/SanFranciscoText-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family:'SanFranciscoText-Semibold';
+  src: local('SanFranciscoText-Semibold'), url(./fonts/SanFranciscoText-Semibold.otf) format('truetype');
+}
+
+@font-face {
+  font-family:'Unisect-Black';
+  src: local('Unisect-Black'), url(./fonts/Unisect-Black.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
