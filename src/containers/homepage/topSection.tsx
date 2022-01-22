@@ -12,6 +12,7 @@ const TopContainer = styled.div`
   align-items: center;
   background-color: #000000;
   @media screen and (max-width: 480px) {
+      
 }
 `;
 
@@ -23,7 +24,9 @@ const BackgroundContainer = styled.div`
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        
+        background-size: cover;
+        margin-block-end: 10em;
+
     }
 `;
 
@@ -37,7 +40,9 @@ const SloganText = styled.h1`
   margin-block-end: 0.2em;
 
   @media screen and (max-width: 480px) {
-    font-size: 40px;
+    font-size: 34px;
+    margin-block-start: 8em;
+
 }
 
 `;

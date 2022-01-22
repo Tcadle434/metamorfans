@@ -63,7 +63,7 @@ const ConnectButton = styled(WalletDialogButton)`
     @media screen and (max-width: 480px) {
         padding: 10px 5px!important;
         border-width: 2px!important;
-        font-size: 12px!important;
+        font-size: 10px!important;
 
     }
 

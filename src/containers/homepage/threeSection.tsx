@@ -65,7 +65,7 @@ const Title = styled.h2`
 `;
 
 
-export function ScheduleSection(props) {
+export function ThreeSection(props) {
 
     const modelPath =
     "https://raw.githubusercontent.com/Tcadle434/metamorfans/main/src/assets/hockey_guy.gltf";
@@ -73,9 +73,26 @@ export function ScheduleSection(props) {
     return (
       <ServiceContainer name="serviceSection">
       <ServiceFilter>
-      <Title>SCHEDULE</Title>
+      <Title>THREE DIMENSIONAL ART</Title>
       <CenterContainer>
-
+      <div>
+        <GLTFModel src={modelPath}  
+        height={window.innerHeight - 200}
+        width={window.innerWidth}
+        position={{ x: 0, y: 5, z: 3 }}
+        >
+          <AmbientLight color={0xffffff} />
+          <DirectionLight
+            color={0xffffff}
+            position={{ x: 100, y: 300, z: 100 }}
+          />
+          <DirectionLight
+            color={0xff00ff}
+            position={{ x: -100, y: 200, z: -100 }}
+          />
+          
+        </GLTFModel>
+      </div>
       </CenterContainer>
       </ServiceFilter>
       </ServiceContainer>

@@ -11,7 +11,8 @@ const FooterContainer = styled.div`
   justify-content: space-between;
   background-color: #0286c3;
   @media screen and (max-width: 480px) {
-    height: 85px;
+    display: inline-block;
+
 }
   `;
 
@@ -24,6 +25,11 @@ const AccessibilityContainer = styled.div`
   display: flex;
   flex-direction: row;
   margin-right: 4%;
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 `;
 
 const TextContainer = styled.div`

@@ -7,10 +7,10 @@ import { TopSection } from "./topSection";
 import { AboutSection } from "./aboutSection";
 import { WinningSection } from "./winningSection";
 import { WorksSection } from "./worksSection";
-import { ScheduleSection } from "./scheduleSection";
+import { ThreeSection } from "./threeSection";
 import { FooterSection } from "./footerSection";
 import { ColoredLine } from "../../components/line";
-
+import { ScheduleSection } from "./scheduleSection";
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
@@ -99,6 +99,7 @@ export function Homepage(props) {
               <AboutSection />
               <WinningSection />
               <WorksSection />
+              <ThreeSection />
               <ScheduleSection />
               <FooterSection />
             </WalletDialogProvider>
