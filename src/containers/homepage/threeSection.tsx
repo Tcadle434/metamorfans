@@ -1,13 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
-import { AboutComponent } from "../../components/aboutComponent";
-import CharacterImg from "../../assets/sample-character.jpeg";
-import Fade from 'react-reveal/Fade';
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
-import { useLoader } from 'react-three-fiber';
-import ModelViewer from 'react-model-viewer';
-import { GLTFModel, OBJModel, AmbientLight, DirectionLight } from "react-3d-viewer";
+import { GLTFModel, AmbientLight, DirectionLight } from "react-3d-viewer";
 
 
 const ServiceContainer = styled(Element)`
@@ -41,15 +35,6 @@ const CenterContainer = styled.div`
     flex-direction: column;
 `;
 
-const ContentContainer = styled.div`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    @media screen and (max-width: 480px) {
-        display: inline-block;
-    
-    }
-`;
 
 const Title = styled.h2`
   color: #FFFFFF;

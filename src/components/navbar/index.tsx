@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Button } from "../button";
-import { Link } from "react-router-dom";
-import { useMediaQuery } from "react-responsive";
 import TwitterImg from "../../assets/twitter.png";
 import DiscordImg from "../../assets/discord.png";
 import { useAnchorWallet } from "@solana/wallet-adapter-react";
@@ -10,6 +7,7 @@ import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 import {
     shortenAddress,
   } from "../../containers/homepage/candy-machine";
+
 
 const NavbarContainer = styled.div`
   width: 100%;
@@ -32,12 +30,6 @@ const BrandContainer = styled.div`
         }
 `;
 
-
-const AccessibilityContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin-right: 4%;
-`;
 
 const SocialMediaImg = styled.img`
   width: 2m;
@@ -86,7 +78,6 @@ const BrandText = styled.h2`
 `;
 
 export function OurNavbar(props) {
-  const isMobile = useMediaQuery({ query: "(max-width: 480px)" });
   const wallet = useAnchorWallet();
 
   

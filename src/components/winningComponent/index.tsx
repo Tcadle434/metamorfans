@@ -77,18 +77,6 @@ const Title = styled.h2`
   }
 `;
 
-const SmallerTitle = styled.h2`
-  color: #FFFFFF;
-  font-family: Unisect-Black;
-  font-size: 50px;
-  margin-block-start: 0.1em;
-  margin-block-end: 0.3em;
-  @media screen and (max-width: 480px) {
-    text-align: center;
-    font-size: 24px;
-  }
-`;
-
 const Details = styled.p`
   color: #FFFFFF;
   font-family: SanFranciscoText-Regular;

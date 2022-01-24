@@ -36,28 +36,6 @@ const CenterContainer = styled.div`
     flex-direction: column;
 `;
 
-const ContentContainer = styled.div`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    @media screen and (max-width: 480px) {
-        display: inline-block;
-    
-    }
-`;
-
-const Title = styled.h2`
-  color: #FFFFFF;
-  font-family: Unisect-Black;
-  font-size: 50px;
-  margin-block-start: 1em;
-  margin-block-end: 2em;
-  line-height: 55px;
-  @media screen and (max-width: 480px) {
-    text-align: center;
-    font-size: 24px;
-  }
-`;
 
 const Details = styled.p`
   color: #FFFFFF;
@@ -71,9 +49,6 @@ const Details = styled.p`
 
 
 export function ScheduleSection(props) {
-
-    const modelPath =
-    "https://raw.githubusercontent.com/Tcadle434/metamorfans/main/src/assets/hockey_guy.gltf";
     
     return (
       <ServiceContainer name="serviceSection">

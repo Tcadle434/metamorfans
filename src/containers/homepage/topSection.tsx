@@ -47,39 +47,6 @@ const SloganText = styled.h1`
 
 `;
 
-const SubText = styled.h2`
-  font-family: Share Tech Mono;
-  font-size: 28px;
-  font-weight: 400;
-  color: #FFFFFF;
-  text-align: center;
-  @media screen and (max-width: 480px) {
-    font-size: 16px;
-}
-`;
-
-const TextContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 760px;
-`;
-
-const LandingImg = styled.img`
-    align-items: center;
-    filter: brightness(60%);
-`;
-
-interface Props {
-  small: boolean;
-}
-
-const styles = {
-    blue: {color: '#0286c3'},
-    green: {color: '#168c39'}
-};
 
 export function TopSection(props) {
 

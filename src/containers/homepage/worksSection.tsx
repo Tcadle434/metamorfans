@@ -33,28 +33,6 @@ const ContentContainer = styled.div`
   }
 `;
 
-const WorksContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin: auto;
-  margin-block-start: 0.1em;
-  @media screen and (min-width: 480px) and (max-width: 1420px) {
-    width: 80%;
-  }
-    @media screen and (max-width: 480px) {
-      align-items: center;
-      justify-content: center;
-      display: inline-block;
-      width: 90%;
-  }
-`;
-
-const ContentRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-`;
 
 const Title = styled.h2`
   color: #FFFFFF;
