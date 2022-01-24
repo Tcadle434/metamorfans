@@ -4,6 +4,7 @@ import BackgroundImg from "../../assets/Generic_Blend_Style.png";
 import { OurNavbar } from "../../components/navbar";
 import { Element } from "react-scroll";
 import { ColoredLine } from "../../components/line";
+import Fade from 'react-reveal/Fade';
 
 const TopContainer = styled.div`
   width: 100%;
@@ -56,7 +57,9 @@ export function TopSection(props) {
       <OurNavbar />
       <ColoredLine /> 
       <BackgroundContainer>
+      <Fade>
           <SloganText>THEY WIN. YOU WIN.</SloganText>
+          </Fade>
       </BackgroundContainer>
     </TopContainer>
   </Element>

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import TwitterImg from "../../assets/twitter.png";
 import DiscordImg from "../../assets/discord.png";
+import LogoImg from "../../assets/metamorfanslogowhite.png";
 import { useAnchorWallet } from "@solana/wallet-adapter-react";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 import {
@@ -49,7 +50,7 @@ const ConnectButton = styled(WalletDialogButton)`
     border-width: 3px!important;
     border-color: #0286c3!important;
     background-color: transparent!important;
-    color: #0286c3!important;
+    color: #49fb35!important;
     border: solid!important;
 
     @media screen and (max-width: 480px) {
@@ -62,7 +63,7 @@ const ConnectButton = styled(WalletDialogButton)`
 `;
 
 const ButtonText = styled.p`
-    color: #0286c3;
+    color: #49fb35;
 `;
 
 const BrandText = styled.h2`
@@ -75,6 +76,11 @@ const BrandText = styled.h2`
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }
+`;
+
+const CustomLogoImg = styled.img`
+    height: 8em;
+    width: 23em;
 `;
 
 export function OurNavbar(props) {
@@ -94,7 +100,7 @@ export function OurNavbar(props) {
       </BrandContainer>
 
       <BrandContainer>
-      <BrandText>THE <br />METAMORFANS <br />LEAGUE</BrandText>
+      <CustomLogoImg src={LogoImg} />
       </BrandContainer>
 
         <BrandContainer>

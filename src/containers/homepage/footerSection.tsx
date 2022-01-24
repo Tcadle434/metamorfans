@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import TwitterImg from "../../assets/twitter.png";
 import DiscordImg from "../../assets/discord.png";
+import LogoImg from "../../assets/metamorfanslogowhite.png";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -62,13 +63,18 @@ const SocialMediaImg = styled.img`
 }
 `;
 
+const CustomLogoImg = styled.img`
+    height: 8em;
+    width: 23em;
+`;
+
 export function FooterSection(props) {
 
     return (
       <FooterContainer>
       <BrandContainer> 
         <TextContainer>
-            <NameText>THE <br />METAMORFAN <br />LEAGUE</NameText>
+            <CustomLogoImg src={LogoImg}/>
             <FooterText>© 2022 Metamorfan League LLC. All rights reserved. <br />Terms and Conditions · Privacy Policy</FooterText>
         </TextContainer>
       </BrandContainer>
