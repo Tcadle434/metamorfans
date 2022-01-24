@@ -24,9 +24,9 @@ const BackgroundContainer = styled.div`
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        background-size: cover;
-        margin-block-end: 10em;
-
+        max-width: 100%;
+        margin-block-end: 5em;
+        align-items: center;
     }
 `;
 

@@ -28,6 +28,8 @@ const ContentContainer = styled.div`
       justify-content: center;
       display: inline-block;
       width: 90%;
+      margin: auto;
+      text-align: center;
   }
 `;
 
@@ -59,7 +61,7 @@ const Title = styled.h2`
   font-family: Unisect-Black;
   font-size: 50px;
   margin-block-start: 3em;
-  margin-block-end: 0em;
+  margin-block-end: 2em;
   line-height: 55px;
   @media screen and (max-width: 480px) {
     text-align: center;
@@ -76,9 +78,10 @@ export function WorksSection(props) {
 
     <ContentContainer>
     <Title>HOW IT WORKS</Title>
+    <Fade>
     <WinningComponentTwo
     title= "LET THE WINNING BEGIN"
-    description="Users mint NFTs prior to a scheduled event selected by The Metamorfan International Committee"
+    description="NFTs are launched prior to a scheduled event selected by The Metamorfan International Committee"
     descriptionOne="During the real world event, if a competitor wins a game or award, so does your Metamorfan NFT"
     descriptionTwo="Medals awarded will be considered an attribute and will increase the rarity of your NFT"
     descriptionThree="A daily leaderboard will be published announcing the holders with the most medals"
@@ -86,6 +89,7 @@ export function WorksSection(props) {
     of the 15 sports disciplines and the three holders with the highest overall medal count at the conclusion of the games"
     imageUrl={BobsledImg}
     />
+    </Fade>
     </ContentContainer>
     </WinningContainer>
 

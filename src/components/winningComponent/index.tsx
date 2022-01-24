@@ -42,8 +42,9 @@ const ServiceContainerThree = styled.div`
   flex-direction: column;
   
   @media screen and (max-width: 480px) {
-    display: inline-block;
+    margin-block-start: 2em;
     align-items: center;
+    text-align: center;
 }
 `;
 
@@ -59,6 +60,8 @@ const DescriptionContainerTwo = styled.div`
   flex-direction: column;
   width: 75%;
   @media screen and (max-width: 480px) {
+      width: 85%;
+      margin: auto;
   }
 `;
 
@@ -98,10 +101,12 @@ const Details = styled.p`
 const Img = styled.img`
   height: 30em;
   width: 30em;
+  border-radius: 20px!important;
+
   @media screen and (max-width: 480px) {
-    height: 10em;
-    width: 10em;
-    margin: 0 50%;
+    height: 19em;
+    width: 19em;
+    margin: auto;
 }
 `;
 

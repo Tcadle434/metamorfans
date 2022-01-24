@@ -47,7 +47,7 @@ export function WinningSection(props) {
     <ContentContainer>
     <WinningComponent
     title= "LET THE WINNING BEGIN"
-    description="Lorem ipsom dolor et ulam sdunt abunt avorpex ulet."
+    description="The competition is on. Are you ready?"
     imageUrl={RareImg}
     />
 
