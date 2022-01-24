@@ -17,12 +17,13 @@ const RowContainer = styled.div`
 const ServiceContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 20px;
 
 
   @media screen and (max-width: 480px) {
     display: inline-block;
     align-items: center;
+
 }
 `;
 
@@ -34,6 +35,7 @@ const ServiceContainerTwo = styled.div`
   @media screen and (max-width: 480px) {
     display: inline-block;
     align-items: center;
+    margin-block-end: 0.1em;
 }
 `;
 
@@ -73,7 +75,7 @@ const Title = styled.h2`
   margin-block-end: 0.3em;
   @media screen and (max-width: 480px) {
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
   }
 `;
 
