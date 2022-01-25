@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import TwitterImg from "../../assets/twitter.png";
 import DiscordImg from "../../assets/discord.png";
-import LogoImg from "../../assets/metamorfanslogowhite.png";
+import LogoImg from "../../assets/logo-center-white.png";
 import { useAnchorWallet } from "@solana/wallet-adapter-react";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 import {
@@ -85,7 +85,7 @@ const CustomLogoImg = styled.img`
     margin-block-end: 2em;
 
     @media screen and (max-width: 480px) {
-      height: 2.5em;
+      height: 2.75em;
       width: 9em;
   
   }

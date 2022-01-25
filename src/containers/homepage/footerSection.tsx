@@ -68,7 +68,7 @@ const CustomLogoImg = styled.img`
     width: 23em;
 
     @media screen and (max-width: 480px) {
-      height: 4em;
+      height: 4.4em;
       width: 15em;
   
   }
