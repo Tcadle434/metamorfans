@@ -8,6 +8,12 @@ const RowContainer = styled.div`
   align-items: center;
   margin-block-end: 3em;
   flex-direction: row;
+  
+  @media screen and (min-width: 480px) and (max-width: 800px) {
+    display: inline-block;
+    align-items: center;
+
+}
   @media screen and (max-width: 480px) {
     display: inline-block;
     align-items: center;

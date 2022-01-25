@@ -66,6 +66,12 @@ const SocialMediaImg = styled.img`
 const CustomLogoImg = styled.img`
     height: 8em;
     width: 23em;
+
+    @media screen and (max-width: 480px) {
+      height: 4em;
+      width: 15em;
+  
+  }
 `;
 
 export function FooterSection(props) {

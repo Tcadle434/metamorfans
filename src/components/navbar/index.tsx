@@ -81,6 +81,14 @@ const BrandText = styled.h2`
 const CustomLogoImg = styled.img`
     height: 8em;
     width: 23em;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+
+    @media screen and (max-width: 480px) {
+      height: 2.5em;
+      width: 9em;
+  
+  }
 `;
 
 export function OurNavbar(props) {

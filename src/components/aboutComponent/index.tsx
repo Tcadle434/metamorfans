@@ -8,6 +8,11 @@ const ServiceContainer = styled.div`
   align-items: center;
   text-align: center;
   width: 33%;
+
+  @media screen and (min-width: 480px) and (max-width: 800px) {
+    width: 100%;
+
+}
   @media screen and (max-width: 480px) {
     display: inline-block;
     width: 100%;

@@ -24,6 +24,7 @@ const ContentContainer = styled.div`
   margin-block-end: 1.2em;
   @media screen and (min-width: 480px) and (max-width: 1420px) {
     width: 80%;
+
   }
     @media screen and (max-width: 480px) {
       align-items: center;
