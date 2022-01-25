@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import BackgroundImg from "../../assets/Generic_Blend_Style.png";
+import BackgroundImg from "../../assets/Generic_Blend_Style_Legal.png";
 import { OurNavbar } from "../../components/navbar";
 import { Element } from "react-scroll";
 import { ColoredLine } from "../../components/line";
