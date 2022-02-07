@@ -49,10 +49,10 @@ const DescriptionContainer = styled.div`
   margin: auto;
   height: 7em; 
 
-  @media screen and (min-width: 1200px) and (max-width: 1440px) {
+  @media screen and (min-width: 900px) and (max-width: 1300px) {
     height: 12em;
   }
-  @media screen and (min-width: 480px) and (max-width: 1200px) {
+  @media screen and (min-width: 480px) and (max-width: 900px) {
     height: 20em;
   }
  @media screen and (max-width: 480px) {

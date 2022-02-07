@@ -24,7 +24,7 @@ const ServiceFilter = styled.div`
     margin-block-end: 10em;
     width: 75%;
     margin: auto;
-    margin-block-end: 5em;
+    margin-block-start: 5em;
 
     @media screen and (max-width: 480px) {
       margin-block-end: 0.5em;
