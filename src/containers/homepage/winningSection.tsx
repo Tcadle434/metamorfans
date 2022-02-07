@@ -18,7 +18,7 @@ const ContentContainer = styled.div`
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 50%;
+  width: 65%;
   margin: auto;
   margin-block-start: 1.2em;
   margin-block-end: 1.2em;
@@ -42,8 +42,8 @@ export function WinningSection(props) {
     <Fade top >
     <ContentContainer>
     <WinningComponent
-    title= "LET THE WINNING BEGIN"
-    description="The competition is on. Are you ready?"
+    title= "CLAIM YOUR WINTER SPORTS CHAMPION"
+    description="Unlock rarity, prizes and access to future competitions"
     imageUrl={RareImg}
     />
 

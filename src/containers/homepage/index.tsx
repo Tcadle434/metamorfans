@@ -92,9 +92,9 @@ export function Homepage(props) {
           <WalletProvider wallets={wallets} autoConnect={true}>
             <WalletDialogProvider>
               <TopSection />
-              <AboutSection />
-              <WinningSection />
               <WorksSection />
+              <WinningSection />
+              <AboutSection />
               <ThreeSection />
               <ScheduleSection />
               <FooterSection />

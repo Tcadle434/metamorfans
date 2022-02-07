@@ -80,19 +80,19 @@ export function AboutSection(props) {
       <ContentContainer>
       <AboutComponent
       title="UNIQUE NFTS"
-      description="3,141 Unique Metamorfan Nfts Built On Solana"
+      description="3,333 Unique Metamorfan NFTs built on the Solana Blockchain"
       imageUrl={ BiathalonImg }
 
       />
       <AboutComponent
       title="WIDE RANGE"
-      description="Representing More Than 80 Nations And 15 Different Sports"
+      description="The Metamorfans will include over 100+ attributes with more than 15,000,000 possible visual permutations"
       imageUrl={ SnowmanImg }
 
       />
       <AboutComponent
-      title="META MEETS IRL"
-      description="Win Medals Based On The Performance Of Competitors In Real World Games"
+      title="MORPHING"
+      description="Ownership of a Metamorfan NFT gives you access to “morph” into future competitions, events and drops"
       imageUrl={ AlienImg }
 
       />

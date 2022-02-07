@@ -76,7 +76,7 @@ const DescriptionContainerTwo = styled.div`
 const Title = styled.h2`
   color: #FFFFFF;
   font-family: Unisect-Black;
-  font-size: 100px;
+  font-size: 72px;
   margin-block-start: 0.1em;
   margin-block-end: 0.3em;
   @media screen and (max-width: 480px) {
@@ -88,7 +88,7 @@ const Title = styled.h2`
 const Details = styled.p`
   color: #FFFFFF;
   font-family: SanFranciscoText-Regular;
-  font-size: 20px;
+  font-size: 24px;
   @media screen and (max-width: 480px) {
     font-size: 16px;
 }

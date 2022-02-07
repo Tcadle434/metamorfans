@@ -43,26 +43,48 @@ const CenterContainer = styled.div`
 const Details = styled.p`
   color: #FFFFFF;
   font-family: SanFranciscoText-Regular;
-  font-size: 32px;
-  text-align: center;
+  font-size: 24px;
+  margin-left: 15px;
+  text-align: left;
   @media screen and (max-width: 480px) {
     font-size: 16px;
 }
 `;
 
+const Title = styled.h2`
+  color: #FFFFFF;
+  font-family: Unisect-Black;
+  font-size: 50px;
+  margin-block-start: 1em;
+  margin-block-end: 1.5em;
+  line-height: 55px;
+  @media screen and (max-width: 480px) {
+    text-align: center;
+    font-size: 32px;
+  }
+`;
+
+const RoadList = styled.ol`
+  color: #FFFFFF;
+  font-size: 32px;
+
+`;
 
 export function ScheduleSection(props) {
     
     return (
       <ServiceContainer name="serviceSection">
       <ServiceFilter>
-
+      <Title>IF THE WORLD IS WATCHING, WE’LL BE COMPETING</Title>
       <Fade>
       <CenterContainer>
 
-        <Details> It is impossible to tell what competitions the Metamorfans will visit next given health regulations around the world, but they do have tons of frequent flier miles </Details>
-        <Details> If the world is watching, we’ll be competing </Details>
-        <Details> Event #1: The International Winter Sports Games in BEIJING</Details>
+      <RoadList>
+        <li><Details>Throughout the year, The Metamorfan International Committee will schedule a number of global NFT drops that are creatively inspired by global competitors and entertainers</Details> </li>
+        <li><Details>Ownership of a Metamorfan gives you first access to future Metamorfan League events and drops</Details> </li>
+        <li><Details>We will develop a fantasy-style game that allows holders the ability to “morph” their Metamorphan NFTs into new, upgraded versions that retain virtual awards and metadata from one competition to another</Details> </li>
+        <li><Details>In the future, Metamorfan League medals will be rewarded to Metamorfans NFTs based on the performance of their real-world counterparts. These medals will also be considered an attribute and may increase rarity and chances at prizes</Details> </li>
+      </RoadList>
 
       </CenterContainer>
       </Fade>

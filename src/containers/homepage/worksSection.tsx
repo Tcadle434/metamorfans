@@ -58,16 +58,13 @@ export function WorksSection(props) {
     <WinningContainer name="aboutSection">
 
     <ContentContainer>
-    <Title>HOW IT WORKS</Title>
+    <Title>ABOUT</Title>
     <Fade>
     <WinningComponentTwo
-    title= "LET THE WINNING BEGIN"
-    description="NFTs are launched prior to a scheduled event selected by The Metamorfan International Committee"
-    descriptionOne="During the real world event, if a competitor wins a game or award, so does your Metamorfan NFT"
-    descriptionTwo="Medals awarded will be considered an attribute and will increase the rarity of your NFT"
-    descriptionThree="A daily leaderboard will be published announcing the holders with the most medals"
-    descriptionFour="Prizes will be awarded to the top medal holders in each
-    of the 15 sports disciplines and the three holders with the highest overall medal count at the conclusion of the games"
+    description="
+    The Metamorfan League is an ongoing series of NFT drops modeled around digital athletes, competitors and entertainers that will kick off with a collection of 3,333 Winter Sports Champions"
+    descriptionOne="The first Metamorfans will be publicly minted in the coming weeks and will include attributes and other rarities that pay homage to winter games and its competitors"
+
     imageUrl={BobsledImg}
     />
     </Fade>
