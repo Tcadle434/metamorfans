@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
 import { WinningComponentTwo } from "../../components/winningComponent";
-import BobsledImg from "../../assets/bobsled.png";
+import BobsledImg from "../../assets/jam.jpg";
 import Fade from 'react-reveal/Fade';
 
 const WinningContainer = styled(Element)`
@@ -20,10 +20,10 @@ const ContentContainer = styled.div`
   margin: auto;
   margin-block-start: 1.2em;
   margin-block-end: 1.2em;
-  @media screen and (min-width: 480px) and (max-width: 1420px) {
+  @media screen and (min-width: 900px) and (max-width: 1420px) {
     width: 80%;
   }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 900px) {
       align-items: center;
       justify-content: center;
       display: inline-block;
@@ -41,7 +41,7 @@ const Title = styled.h2`
   margin-block-start: 3em;
   margin-block-end: 2em;
   line-height: 55px;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 900px) {
     text-align: center;
     font-size: 32px;
     margin-block-start: 1.2em;

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
 import { WinningComponent } from "../../components/winningComponent";
-import RareImg from "../../assets/ski_rare.png";
+import RareImg from "../../assets/snow.jpg";
 import Fade from 'react-reveal/Fade';
 
 const WinningContainer = styled(Element)`

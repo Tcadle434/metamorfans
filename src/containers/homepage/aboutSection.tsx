@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
 import { AboutComponent } from "../../components/aboutComponent";
-import SnowmanImg from "../../assets/15.png";
-import BiathalonImg from "../../assets/18.png";
-import AlienImg from "../../assets/12.png";
+import SnowmanImg from "../../assets/no_flag_background1.png";
+import BiathalonImg from "../../assets/no_flag_background2.png";
+import AlienImg from "../../assets/no_flag_background8.png";
 import Fade from 'react-reveal/Fade';
 
 
